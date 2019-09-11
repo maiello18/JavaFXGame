@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.0" prefWidth="732.0" style="-fx-background-color: #068894;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.GameScene">
+    <bottom>
+        <VBox prefHeight="0.0" prefWidth="732.0" BorderPane.alignment="CENTER">
+            <children>
+                <Text fill="#333333" strokeType="OUTSIDE" strokeWidth="0.0" text="Your hand:">
+                    <font>
+                        <Font name="System Bold" size="13.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets left="10.0" />
+                    </VBox.margin>
+                </Text>
+                <HBox alignment="CENTER_LEFT" prefHeight="83.0" prefWidth="564.0" style="-fx-background-color: #057a85;">
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                    <children>
+                        <VBox fx:id="Card_1" onMouseClicked="#Card_1" prefHeight="83.0" prefWidth="14.0">
+                            <children>
+                                <ImageView fx:id="card_1" disable="true" fitHeight="123.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@cards/card_back.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="Card_2" onMouseClicked="#Card_2" prefHeight="67.0" prefWidth="0.0">
+                            <children>
+                                <ImageView fx:id="card_2" disable="true" fitHeight="123.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@cards/card_back.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="Card_3" onMouseClicked="#Card_3" prefHeight="72.0" prefWidth="0.0">
+                            <children>
+                                <ImageView fx:id="card_3" disable="true" fitHeight="123.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@cards/card_back.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="Card_4" onMouseClicked="#Card_4" prefHeight="58.0" prefWidth="0.0">
+                            <children>
+                                <ImageView fx:id="card_4" disable="true" fitHeight="123.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@cards/card_back.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="Card_5" onMouseClicked="#Card_5" prefHeight="58.0" prefWidth="0.0">
+                            <children>
+                                <ImageView fx:id="card_5" disable="true" fitHeight="123.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@cards/card_back.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="Card_6" onMouseClicked="#Card_6" prefHeight="48.0" prefWidth="0.0">
+                            <children>
+                                <ImageView fx:id="card_6" disable="true" fitHeight="123.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@cards/card_back.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="Card_7" onMouseClicked="#Card_7" prefHeight="53.0" prefWidth="0.0">
+                            <children>
+                                <ImageView fx:id="card_7" disable="true" fitHeight="123.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@cards/card_back.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="Card_8" onMouseClicked="#Card_8" prefHeight="62.0" prefWidth="4.0">
+                            <children>
+                                <ImageView fx:id="card_8" disable="true" fitHeight="123.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                                    <image>
+                                        <Image url="@cards/card_back.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="Card_9" onMouseClicked="#Card_9" prefHeight="63.0" prefWidth="0.0">
+                            <children>
+                                <ImageView fx:id="card_9" disable="true" fitHeight="123.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                                    <image>
+                                        <Image url="@cards/card_back.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="Card_10" onMouseClicked="#Card_10" prefHeight="65.0" prefWidth="12.0">
+                            <children>
+                                <ImageView fx:id="card_10" disable="true" fitHeight="123.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                                    <image>
+                                        <Image url="@cards/card_back.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="48.0" prefWidth="207.0">
+                            <children>
+                                <Button fx:id="uno_btn" mnemonicParsing="false" onAction="#Uno_button" text="Uno!">
+                                    <VBox.margin>
+                                        <Insets bottom="5.0" />
+                                    </VBox.margin>
+                                </Button>
+                        <Button fx:id="draw_card_btn" mnemonicParsing="false" onAction="#Draw_button" text="Draw Card">
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </Button>
+                                <Button fx:id="quit_btn" mnemonicParsing="false" onAction="#Quit_button" text="Quit Game" />
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </bottom>
+    <center>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+            <children>
+                <Text fill="#333333" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Card">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="10.0" />
+                    </VBox.margin>
+                </Text>
+                <ImageView fx:id="top_of_deck" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@cards/card_back.png" />
+                    </image>
+                    <VBox.margin>
+                        <Insets bottom="50.0" />
+                    </VBox.margin>
+                </ImageView>
+                <Text fx:id="player_inst" fill="#333333" strokeType="OUTSIDE" strokeWidth="0.0" text="Player Instructions">
+                    <font>
+                        <Font name="System Bold" size="13.0" />
+                    </font>
+                </Text>
+            </children>
+        </VBox>
+    </center>
+    <top>
+        <VBox alignment="CENTER" prefHeight="0.0" prefWidth="732.0" BorderPane.alignment="CENTER">
+            <children>
+                <Text fill="#333333" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Uno!" textAlignment="CENTER" wrappingWidth="147.55078125">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" top="10.0" />
+                    </VBox.margin>
+                </Text>
+            </children>
+        </VBox>
+    </top>
+</BorderPane>
